@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+/*-----------------------------------
+
+	main
+
+-----------------------------------*/
+
+
+.form_div {
+	display: inline-block;
+}
+p.caution {
+	font-size: 0.8em;
+	color: #E43C33;
+	margin-top: 10px;
+}
+h3 {
+	margin-top: 30px;
+}
+
+
+
+/* フォーム共通 */
+form dl { 
+	margin: 0;
+	font-size: 18px;
+	line-height: 1.8;
+	width: 100%;
+	display: table;
+}
+form dl dt, form, dl dd {
+	padding: .5em 0;
+	display: table-cell;
+	text-align: left;
+}
+form, dl dd.submit_btn {
+	text-align: center;
+}
+form dl dt {
+	width: 120px;
+	vertical-align: top;
+}
+
+
+/* 入力フォーム */
+input[type="text"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	padding: .3em .5em;
+	width: 300px;
+	line-height: 1;
+	border: 2px solid #aaaaaa;
+	border-radius: 0;
+	font-family: "Noto Sans JP","メイリオ","Meiryo",verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+	margin-right: 10px;
+}
+
+
+/* 送信ボタン */
+input[type="submit"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	padding: .5em 1em;
+	color: #fff;
+	background-color: #0ae;
+	border: none;
+	border-radius: 4px;
+	transition : 0.2s ;
+	-webkit-transition : 0.2s ;
+	-moz-transition    : 0.2s ;
+	-o-transition      : 0.2s ;
+	-ms-transition     : 0.2s ;
+	font-family: "Noto Sans JP","メイリオ","Meiryo",verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+	background-color: #00bbee;
+}
+
+
+
+/* テキストエリア */
+textarea {
+	padding: .3em .5em;
+	line-height: 1;
+	border: 2px solid #aaaaaa;
+	border-radius: 0;
+	font-family: "Noto Sans JP","メイリオ","Meiryo",verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+}
+
+
+
+/* トップへ戻るボタン */
+a.button_a {
+	margin: 0 auto;
+	display: block;
+	text-decoration: none;
+	width: 120px;
+}
+.back_btn {
+	margin-top: -12px;
+	padding: .3em 1em;
+	color: #fff;
+	background-color: rgb(235, 143, 6);
+	border: none;
+	border-radius: 4px;
+	transition : 0.2s ;
+	-webkit-transition : 0.2s ;
+	-moz-transition    : 0.2s ;
+	-o-transition      : 0.2s ;
+	-ms-transition     : 0.2s ;
+	font-family: "Noto Sans JP","メイリオ","Meiryo",verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+    cursor: pointer;
+}
+.back_btn:hover {
+	background-color: rgb(248, 178, 73);
+}

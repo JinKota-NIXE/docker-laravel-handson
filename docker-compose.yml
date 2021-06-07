@@ -1,4 +1,4 @@
-version: "3.8"
+version: "3.3"
 services:
   app:
     build: ./infra/php
@@ -13,3 +13,12 @@ services:
       - ./backend:/work
       - ./infra/nginx/default.conf:/etc/nginx/conf.d/default.conf
     working_dir: /work
+
+    # 追記２
+  db:
+    build: ./infra/mysql
+    volumes:
+      - db-store:/var/lib/mysql
+
+volumes:
+  db-store:

@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/*-----------------------------------
+
+	swiper
+
+-----------------------------------*/
+
+.swiper-button-prev,
+.swiper-button-next {
+	color: #d1d1d1 !important;
+}
+
+@media screen and (max-width: 840px) {
+
+
+}
+
+@media screen and (max-width: 640px) {
+
+	.swiper-button-prev:after,
+	.swiper-button-next:after {
+		font-size: 22px !important;
+	}
+
+}
+
+/*-----------------------------------
+
+	start_text_block
+
+-----------------------------------*/
+
+#start_text_block {
+	text-align: center;
+	padding: 90px 0 0;
+}
+
+@media screen and (max-width: 840px) {
+	#start_text_block {
+		padding: 50px 0 0;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#start_text_block {
+		padding: 30px 0 0px;
+	}
+}
+
+/*-----------------------------------
+
+	profile_block
+
+-----------------------------------*/
+
+#profile_block {
+	padding: 90px 0 0;
+}
+#profile_block .profile_box {
+	margin-top: 40px;
+}
+#profile_block .profile_box .jin_img {
+	width: 300px;
+}
+#profile_block .profile_box .jin_profile {
+	width: calc(100% - 330px);
+}
+#profile_block .profile_box .jin_profile p.mgn_top {
+	margin-top: 8px;
+}
+#profile_block .profile_box .jin_profile table {
+	width: 100%;
+}
+#profile_block .profile_box .jin_profile table tr {
+	border-bottom: 2px solid #999;
+}
+#profile_block .profile_box .jin_profile table tr:nth-child(1) {
+	border-top: 2px solid #999;
+}
+#profile_block .profile_box .jin_profile table th {
+	width: 80px;
+	padding: 10px 10px;
+}
+#profile_block .profile_box .jin_profile table td {
+	padding: 10px 20px;
+}
+#profile_block .profile_box .jin_profile table td span.bold {
+	font-weight: bold;
+}
+#profile_block .profile_box .jin_profile table ul li {
+	margin-bottom: 3px;
+}
+
+
+@media screen and (max-width: 840px) {
+	#profile_block .profile_box .jin_profile {
+		width: calc(100% - 230px);
+	}
+	#profile_block .profile_box .jin_img {
+		width: 200px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#profile_block {
+		padding: 60px 0 0;
+	}
+	#profile_block .profile_box .jin_img {
+		width: 100%;
+		text-align: center;
+	}
+	#profile_block .profile_box .jin_img img {
+		width: 300px;
+	}
+	#profile_block .profile_box .jin_profile {
+		width: 100%;
+		margin-top: 40px;
+	}
+}
+
+/*-----------------------------------
+
+	detail_block
+
+-----------------------------------*/
+
+#detail_block {
+	padding: 90px 0 0;
+}
+#detail_block p.detail_text {
+	text-align: center;
+	margin-top: 40px;
+}
+#detail_block .slide_btn_box {
+	text-align: center;
+	margin-top: 30px;
+}
+#detail_block .slide_btn {
+	font-size: 16px;
+	display: inline-block;
+	color: #fff;
+	background-color: #53a8bb;
+	padding: 15px 25px;
+	cursor: pointer;
+	transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	-webkit-transition-duration: 0.3s;
+}
+#detail_block .slide_btn:hover {
+	background-color: #6ebbcc;
+}
+#detail_block .slide_btn:before {
+	content: "▼";
+	margin-right: 10px;
+}
+#detail_block .slide_btn.slide_open:before {
+	content: "▲";
+}
+#detail_block table.detail_table {
+	margin-top: 40px;
+}
+#detail_block table.detail_table th,
+#detail_block table.detail_table td {
+	border: 2px solid #999;
+	padding: 10px;
+}
+#detail_block table.detail_table th {
+	width: 100px;
+	padding: 10px;
+}
+#detail_block table.detail_table td  {
+	padding: 10px 20px;
+}
+#detail_block table.detail_table span.bold {
+	font-weight: bold;
+}
+#detail_block table.detail_table ul.anime_list {
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 15px;
+}
+#detail_block table.detail_table ul.anime_list li {
+	width: 45%;
+	line-height: 1.4em;
+	margin-bottom: 1.1em;
+	position: relative;
+	padding-left: 15px;
+}
+#detail_block table.detail_table ul.anime_list li::before {
+	position: absolute;
+	content: "・";
+	top: 0px;
+    left: 0px;
+}
+#detail_block table.detail_table ul.anime_list li:nth-child(2n+1) {
+	margin-right: 9%;
+}
+#detail_block table.detail_table ul.anime_list li:nth-last-child(-n+2) {
+	margin-bottom: 0;
+}
+
+
+
+@media screen and (max-width: 640px) {
+	#detail_block {
+		padding: 60px 0 0;
+	}
+}
+
+/*-----------------------------------
+
+	career_block
+
+-----------------------------------*/
+
+#career_block {
+	padding: 90px 0 0;
+}
+#career_block table.career_table {
+	margin-top: 40px;
+}
+#career_block table.career_table th,
+#career_block table.career_table td {
+	border: 2px solid #999;
+	padding: 10px;
+}
+#career_block table.career_table th {
+	width: 100px;
+	padding: 10px;
+}
+#career_block table.career_table td  {
+	padding: 10px 20px;
+}
+
+/*-----------------------------------
+
+	performance_block
+
+-----------------------------------*/
+
+#performance_block {
+    padding: 90px 0 0;
+}
+#performance_block p.performance_text {
+    text-align: center;
+    margin-top: 40px;
+}
+#performance_block ul.performance_list {
+	display: flex;
+	flex-flow: row wrap;
+	margin-top: 15px;
+}
+#performance_block ul.performance_list li {
+	width: 30%;
+	margin-right: 5%;
+}
+#performance_block ul.performance_list li:nth-child(3n) {
+	margin-right: 0;
+}
+#performance_block ul.performance_list li div {
+	height: 300px;
+	position: relative;
+}
+#performance_block ul.performance_list li div img {
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+#performance_block ul.performance_list span.red {
+	color: #ca2115;
+}
+
+/*-----------------------------------
+
+	bss_block
+
+-----------------------------------*/
+
+#bbs_block .add_list th,
+#bbs_block .add_list td {
+	border: 2px solid #999;
+    padding: 10px;
+}

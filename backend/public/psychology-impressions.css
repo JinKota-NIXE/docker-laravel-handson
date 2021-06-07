@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*-----------------------------------
+
+	main
+
+-----------------------------------*/
+
+
+h2 {
+	margin-bottom: 20px;
+}
+a.button_a {
+	margin: 20px auto 0;
+	display: block;
+	text-decoration: none;
+	width: 170px;
+}
+.message_box {
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: rgb(190, 205, 224);
+	display: inline-block;
+}
+.back_btn {
+	padding: .5em 1em;
+	color: #fff;
+	background-color: rgb(235, 143, 6);
+	border: none;
+	border-radius: 4px;
+	transition : 0.2s ;
+	-webkit-transition : 0.2s ;
+	-moz-transition    : 0.2s ;
+	-o-transition      : 0.2s ;
+	-ms-transition     : 0.2s ;
+	font-family: "Noto Sans JP","メイリオ","Meiryo",verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+    cursor: pointer;
+}
+.back_btn:hover {
+	background-color: rgb(248, 178, 73);
+}

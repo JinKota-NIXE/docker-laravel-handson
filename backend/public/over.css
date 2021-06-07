@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*-----------------------------------
+
+	main
+
+-----------------------------------*/
+
+p.gameover {
+    color: #E43C33;
+	font-weight: bold;
+	margin-top: 15px;
+}

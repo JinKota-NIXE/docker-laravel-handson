@@ -1,0 +1,172 @@
+@charset "UTF-8";
+
+/*-----------------------------------
+
+	base
+
+-----------------------------------*/
+html {
+    overflow-y: auto;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 62.5%;
+	overflow-x: hidden;
+}
+body {
+	font-family: "Noto Sans JP","メイリオ","Meiryo",verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+	font-size: 14px;
+    font-size: 1.4em;
+	color: #333434;
+    line-height: 1.8em;
+	letter-spacing:0.03rem;
+	font-weight: 400;
+	background: #fff;
+	margin:0 !important;
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 999;
+}
+
+::selection {
+	background: #02a5b5;
+	color: #fff;
+}
+
+/* Firefox */
+::-moz-selection {
+	background: #02a5b5;
+	color: #fff;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+a, a:link, a:visited {
+	color:#333434;
+	text-decoration:none;
+    cursor: pointer;
+}
+a:hover {
+	color:#333434;
+	text-decoration:none;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+         -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.min {
+	font-family: 'Noto Serif JP', serif;
+}
+
+/* device */
+.sp {
+	display:none;
+}
+.tab {
+	display:none;
+}
+.pc {
+	display:block;
+}
+
+/* contents */
+.contents_inner{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 1130px) {
+
+	.contents_inner{
+		width: 95%;
+		margin: 0 auto;
+	}
+
+}
+
+@media screen and (max-width: 840px) {
+
+	body {
+		font-size: 13px;
+		font-size: 1.3em;
+		line-height: 1.6em;
+		font-weight: normal;
+		letter-spacing: 0.05rem;
+	}
+
+/* device */
+	.sp{
+		display:none;
+	}
+	.pc{
+		display:none;
+	}
+	.tab{
+		display:block;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+
+/* device */
+	.pc{
+		display:none;
+	}
+	.sp{
+		display:block;
+	}
+
+}
+
+/*-----------------------------------
+
+	clearfix
+
+-----------------------------------*/
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+
+/*-----------------------------------
+
+	header
+
+-----------------------------------*/
+
+header {
+	text-align: center;
+	margin: 50px 0;
+}
+
+/*-----------------------------------
+
+	main
+
+-----------------------------------*/
+
+main {
+	text-align: center;
+}
+form {
+	margin-top: 10px;
+}
+
