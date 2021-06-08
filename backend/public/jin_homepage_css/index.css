@@ -253,8 +253,10 @@
 	margin-top: 15px;
 }
 #performance_block ul.performance_list li {
-	width: 30%;
-	margin-right: 5%;
+	width: 32%;
+	margin: 0 2% 5px 0;
+	background-color: rgb(203, 214, 228);
+
 }
 #performance_block ul.performance_list li:nth-child(3n) {
 	margin-right: 0;
@@ -276,6 +278,7 @@
 #performance_block ul.performance_list span.red {
 	color: #ca2115;
 }
+#performance_block　
 
 /*-----------------------------------
 

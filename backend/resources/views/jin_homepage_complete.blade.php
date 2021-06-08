@@ -101,7 +101,7 @@
         <div class="complete_message">
             <p>あなたのページは無事に書き込まれました。</p>
         </div>
-        <a href="/JinHomepage">
+        <a href="{{route('jin_homepage')}}">
             <div class="home_btn">
                 TOPへ戻る
             </div>

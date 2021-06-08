@@ -109,7 +109,11 @@
             <input type="hidden" name="password" value="{{$password}}">
             <input type="hidden" name="message" value="{{$message}}">
             <div class="button_area">
-                <div class="button_reset"><input type="submit" value="戻る" name="back"></div>
+                <a href="{{route('jin_homepage')}}">
+                    <div class="home_btn">
+                        TOPへ戻る
+                    </div>
+                </a>
                 <div class="button_submit"><input type="submit" value="送信する" name="send"></div>
             </div>
         </form>

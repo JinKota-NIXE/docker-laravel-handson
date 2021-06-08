@@ -358,6 +358,48 @@
                         </div>
                         <p>ガス灯フラッグデザインコンテスト<br><span class="red">審査員特別賞受賞</span></p>
                     </li>
+                    <li>
+                        <div>
+                            <a href="/jin_homepage_img/index/illust_02.png"><img src="/jin_homepage_img/index/illust_02.png" alt="韓国の音楽ゲーム「Pump It Up」のキャラデザコンテスト"></a>
+                        </div>
+                        <p>韓国の音楽ゲーム「Pump It Up」のキャラデザコンテスト<br><span class="red">20位以内に入り予選通過</span></p>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="/jin_homepage_img/index/illust_03.png"><img src="/jin_homepage_img/index/illust_03.png" alt="画像コラージュイラスト「City of Safari」"></a>
+                        </div>
+                        <p>画像コラージュイラスト「City of Safari」</p>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="/jin_homepage_img/index/illust_04.png"><img src="/jin_homepage_img/index/illust_04.png" alt="専門学校デジタルアーツ仙台 文化祭用ポストカード"></a>
+                        </div>
+                        <p>専門学校デジタルアーツ仙台 文化祭用ポストカード</p>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="/jin_homepage_img/index/illust_05.png"><img src="/jin_homepage_img/index/illust_05.png" alt="専門学校デジタルアーツ仙台 文化祭用ポストカード"></a>
+                        </div>
+                        <p>３Dイラスト ARCADE1UP筐体風DJMAX TECHNIKA(Blenderで制作)</p>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="/jin_homepage_img/index/web_01.png"><img src="/jin_homepage_img/index/web_01.png" alt="日建産業 オンラインショップ"></a>
+                        </div>
+                        <p>日建産業 オンラインショップ(デザイン・らくうるカート組み込み担当)</p>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="/jin_homepage_img/index/web_02.png"><img src="/jin_homepage_img/index/web_02.png" alt="日建産業 オンラインショップ"></a>
+                        </div>
+                        <p>カナイ美建 オンラインショップ(デザイン・HTMLコーディング・らくうるカート組み込み担当)</p>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="/jin_homepage_img/index/web_03.png"><img src="/jin_homepage_img/index/web_03.png" alt="アシスト株式会社 オンラインショップ"></a>
+                        </div>
+                        <p>アシスト株式会社 オンラインショップ(HTMLコーディング・らくうるカート組み込み担当)</p>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -370,25 +412,23 @@
                             <th>名前</th>
                             <th>内容</th>
                         </tr>
-                        <tr>
-                            <td>名前テスト</td>
-                            <td>内容が入ります内容が入ります内容が入ります内容が入ります内容が入ります</td>
-                        </tr>
-                        <tr>
-                            <td>名前テスト</td>
-                            <td>内容が入ります内容が入ります内容が入ります内容が入ります内容が入ります</td>
-                        </tr>
-                        <tr>
-                            <td>名前テスト</td>
-                            <td>内容が入ります内容が入ります内容が入ります内容が入ります内容が入ります</td>
-                        </tr>
+                        @foreach($bss_table as $bss_element)
+                        
+                            <tr>
+                                <td>{{$bss_element->name}}さん</td>
+                                <td>『{{$bss_element->message}}』とかきこみました。</td>
+                            </tr>
+                        @endforeach
                     </table>
                 </article>
                 <form action="{{route('jin_homepage_check')}}" method="post">
                     @csrf
                     <dl>
                         <dt>名前</dt>
-                        <dd><input type="string" name="name"></dd>
+                        <dd>
+                            
+                            <input type="string" name="name">
+                        </dd>
                     </dl>
                     <dl>
                         <dt>パスワード</dt>
@@ -399,6 +439,7 @@
                         <dd><input type="text" name="message"></dd>
                     </dl>
                     <dl>
+                        <span>{{$error_message}}</span>
                         <dd><input type="submit" name="submit" value="送信"></dd>
                     </dl>
                 </form>

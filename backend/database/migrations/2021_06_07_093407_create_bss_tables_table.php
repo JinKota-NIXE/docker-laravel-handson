@@ -16,8 +16,6 @@ class CreateBssTablesTable extends Migration
         Schema::create('bss_tables', function (Blueprint $table) {
             $table->id();
             $table->string('name')->comment('名前');
-            $table->integer('password')->comment('パスワード');
-            $table->text('message')->comment('内容');
             $table->timestamps();
         });
     }
