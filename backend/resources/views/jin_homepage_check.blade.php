@@ -16,7 +16,7 @@
 
 <link rel="stylesheet" href="/jin_homepage_css/reset.css">
 <link rel="stylesheet" href="/jin_homepage_css/common.css">
-<link rel="stylesheet" href="/jin_homepage_css/index.css">
+<link rel="stylesheet" href="/jin_homepage_css/check.css">
 <link rel="stylesheet" href="/jin_homepage_css/swiper.css">
 <link rel="stylesheet" href="/jin_homepage_css/animate.css">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,900|Noto+Serif+JP:400,600&display=swap" rel="stylesheet">
@@ -98,25 +98,29 @@
     </header>
 
     <div id="contents">
-        <div class="form_message">
-            <p>{{$name}}さんが「{{$message}}」と書き込みました。</p>
-        </div>
-        <form action="{{route('jin_homepage_complete')}}" method="post">
-            @csrf
-            <input type="hidden" name="_method" value="put">
-            <p>上記のように書き込みますか？</p>
-            <input type="hidden" name="name" value="{{$name}}">
-            <input type="hidden" name="password" value="{{$password}}">
-            <input type="hidden" name="message" value="{{$message}}">
-            <div class="button_area">
-                <a href="{{route('jin_homepage')}}">
-                    <div class="home_btn">
-                        TOPへ戻る
+        <div id="form_block">
+            <div class="contents_inner">
+                <div class="form_message">
+                    <p>{{$name}}さんが「{{$message}}」と書き込みました。</p>
+                </div>
+                <form action="{{route('jin_homepage_complete')}}" method="post">
+                    @csrf
+                    <input type="hidden" name="_method" value="put">
+                    <p>上記のように書き込みますか？</p>
+                    <input type="hidden" name="name" value="{{$name}}">
+                    <input type="hidden" name="password" value="{{$password}}">
+                    <input type="hidden" name="message" value="{{$message}}">
+                    <div class="button_area">
+                        <a href="{{route('jin_homepage')}}">
+                            <div class="home_btn">
+                                TOPへ戻る
+                            </div>
+                        </a>
+                        <div class="button_submit"><input type="submit" value="送信する" name="send"></div>
                     </div>
-                </a>
-                <div class="button_submit"><input type="submit" value="送信する" name="send"></div>
+                </form>
             </div>
-        </form>
+        </div>
     </div>
 
     </div>

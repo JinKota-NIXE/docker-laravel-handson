@@ -148,6 +148,9 @@
 	-o-transition-duration: 0.3s;
 	-webkit-transition-duration: 0.3s;
 }
+#detail_block .slide_btn span {
+	font-size: 12px;
+}
 #detail_block .slide_btn:hover {
 	background-color: #6ebbcc;
 }
@@ -250,22 +253,27 @@
 #performance_block ul.performance_list {
 	display: flex;
 	flex-flow: row wrap;
-	margin-top: 15px;
+	margin-top: 45px;
 }
 #performance_block ul.performance_list li {
 	width: 32%;
-	margin: 0 2% 5px 0;
-	background-color: rgb(203, 214, 228);
-
+	margin: 0 2% 40px 0;
+	text-align: center;
+	box-sizing: border-box;
+}
+#performance_block ul.performance_list li:nth-last-child(-n+2) {
+	margin-bottom: 0;
 }
 #performance_block ul.performance_list li:nth-child(3n) {
 	margin-right: 0;
 }
-#performance_block ul.performance_list li div {
+#performance_block ul.performance_list li div.li_img {
 	height: 300px;
 	position: relative;
+	border: 2px solid #a7c8d8;
+	box-sizing: border-box;
 }
-#performance_block ul.performance_list li div img {
+#performance_block ul.performance_list li div.li_img img {
 	max-width: 100%;
 	max-height: 100%;
 	position: absolute;
@@ -273,21 +281,204 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
-	margin: 0 auto;
+	margin: auto;
 }
-#performance_block ul.performance_list span.red {
+#performance_block ul.performance_list li div.li_text {
+	padding: 20px 20px 25px;
+}
+#performance_block ul.performance_list li div.li_text p {
+	font-weight: bold;
+}
+#performance_block ul.performance_list li div.li_text p.red {
 	color: #ca2115;
 }
-#performance_block　
+#performance_block ul.performance_list li div.li_text p.smallFont {
+	font-size: 0.9em;
+	font-weight: normal;
+	line-height: 1.8em;
+	margin-top: 8px;
+}
+
+@media screen and (max-width: 840px) {
+	#performance_block ul.performance_list li {
+		width: 48%;
+		margin: 0 4% 40px 0;
+		text-align: center;
+	}
+	#performance_block ul.performance_list li:nth-child(3n) {
+		margin-right: 4%;
+	}
+	#performance_block ul.performance_list li:nth-last-child(-n+2) {
+		margin-bottom: 0px;
+	}
+	#performance_block ul.performance_list li:nth-child(2n) {
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#performance_block ul.performance_list li {
+		margin-bottom: 30px;
+	}
+	#performance_block ul.performance_list li div.li_img {
+		height: 250px;
+	}
+	#performance_block ul.performance_list li div.li_text {
+		padding: 15px 15px 20px;
+	}
+}
 
 /*-----------------------------------
 
-	bss_block
+	bbs_block
 
 -----------------------------------*/
-
+#bbs_block {
+    padding: 90px 0 60px;
+}
+#bbs_block .add_list {
+	margin-top: 50px;
+}
+#bbs_block .add_list table {
+	width: 100%;
+}
 #bbs_block .add_list th,
 #bbs_block .add_list td {
 	border: 2px solid #999;
     padding: 10px;
+}
+#bbs_block .add_list .name_cell {
+	width: 15%;
+}
+#bbs_block .form_box_wrapper {
+	text-align: center;
+	margin-top: 40px;
+}
+#bbs_block .form_box {
+	display: inline-block;
+}
+#bbs_block .form_box span.red_error {
+	display: block;
+	color: #ca2115;
+	margin-bottom: 10px;
+}
+
+/* フォーム共通 */
+form dl {
+	margin: 0;
+	width: 100%;
+	display: table;
+}
+form dl dt, form, dl dd {
+	padding: .5em 0;
+	display: table-cell;
+}
+form dl dt {
+	width: 107px;
+	vertical-align: top;
+	padding: .7em 20px 0 .3em;
+	text-align: right;
+}
+form dl dd {
+	text-align: left;;
+}
+form dl dd.submit {
+	text-align: center;
+	padding-top: 20px;
+}
+
+/* 入力フォーム共通 */
+input[type="string"],
+input[type="integer"],
+input[type="text"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	padding: .3em .5em;
+	width: 260px;
+	line-height: 1;
+	border: 2px solid #aaaaaa;
+	border-radius: 0;
+	font-family: "Noto Sans JP","メイリオ","Meiryo",verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+}
+
+/* 内容フォーム */
+input[type="text"] {
+	width: 350px;
+}
+
+
+
+/* 送信ボタン */
+input[type="submit"] {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	width: 100px;
+	height: 50px;
+	color: #fff;
+	background-color: #53a8bb;
+	border: none;
+	border-radius: 4px;
+	transition : 0.2s ;
+	-webkit-transition : 0.2s ;
+	-moz-transition    : 0.2s ;
+	-o-transition      : 0.2s ;
+	-ms-transition     : 0.2s ;
+	font-family: "Noto Sans JP","メイリオ","Meiryo",verdana,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"ＭＳ Ｐゴシック","MS PGothic",Sans-Serif;
+	cursor: pointer;
+}
+input[type="submit"]:hover {
+	background-color: #88cbda;
+}
+
+@media screen and (max-width: 840px) {
+	#bbs_block .add_list .name_cell {
+		width: 25%;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	#bbs_block {
+		padding: 70px 0 60px;
+	}
+	#bbs_block .add_list {
+		margin-top: 35ßpx;
+	}
+	#bbs_block .add_list .name_cell {
+		width: 30%;
+	}
+}
+@media screen and (max-width: 520px) {
+	form dl dt {
+		width: 100px;
+	}
+
+	/* 入力フォーム共通 */
+	input[type="string"],
+	input[type="integer"],
+	input[type="text"] {
+		width: 200px;
+	}
+
+	/* 内容フォーム */
+	input[type="text"] {
+		width: 250px;
+	}
+}
+@media screen and (max-width: 400px) {
+	form dl dt {
+		padding: .7em 20px 0 0;
+		width: 95px;
+	}
+
+	/* 入力フォーム共通 */
+	input[type="string"],
+	input[type="integer"],
+	input[type="text"] {
+		width: 150px;
+	}
+
+	/* 内容フォーム */
+	input[type="text"] {
+		width: 200px;
+	}
 }

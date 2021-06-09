@@ -16,7 +16,7 @@
 
 <link rel="stylesheet" href="/jin_homepage_css/reset.css">
 <link rel="stylesheet" href="/jin_homepage_css/common.css">
-<link rel="stylesheet" href="/jin_homepage_css/index.css">
+<link rel="stylesheet" href="/jin_homepage_css/complete.css">
 <link rel="stylesheet" href="/jin_homepage_css/swiper.css">
 <link rel="stylesheet" href="/jin_homepage_css/animate.css">
 <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,500,900|Noto+Serif+JP:400,600&display=swap" rel="stylesheet">
@@ -98,14 +98,18 @@
     </header>
 
     <div id="contents">
-        <div class="complete_message">
-            <p>あなたのページは無事に書き込まれました。</p>
-        </div>
-        <a href="{{route('jin_homepage')}}">
-            <div class="home_btn">
-                TOPへ戻る
+        <div id="complete_block">
+            <div class="contents_inner">
+                <div class="complete_message">
+                    <p>あなたのページは無事に書き込まれました。</p>
+                </div>
+                <a href="{{route('jin_homepage')}}">
+                    <div class="home_btn">
+                        TOPへ戻る
+                    </div>
+                </a>
             </div>
-        </a>
+        </div>
     </div>
 
     </div>

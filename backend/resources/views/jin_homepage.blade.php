@@ -166,7 +166,7 @@
                                         私には以下の障がいがあるため、月に1回主治医の診察を受けております。<br>
                                         <br>
                                         <span class="bold">・身体表現性障がい</span><br>
-                                        不安を感じると胃腸が強く痛み出すことがあります(主治医から頂いている抗不安剤を飲むと症状が和らぐ)<br>
+                                        不安を感じると胃腸が強く痛み出すことがあります(主治医から頂いている抗不安剤を飲むと症状が和らぐ)。<br>
                                         <br>
                                         <span class="bold">・発達障がいの手前</span><br>
                                         話の内容を違う方向に解釈してしまう・1度で理解出来ない事が多いため、重要な指示の連絡を必要とする仕事(営業など)に大きな支障が出てしまいます(文章上のやり取りだとそういったリスクは少なめ)。
@@ -187,7 +187,7 @@
                 </p>
                 <div class="slide_btn_box">
                     <div class="slide_btn">
-                        見る<span>(クリップ・タップしてください)</span>
+                        見る<span>&nbsp;&nbsp;(クリップ・タップしてください)</span>
                     </div> 
                 </div>
                 <div class="slide_contents">
@@ -322,7 +322,7 @@
                     </tr>
                     <tr>
                         <th>
-                            2020年1月<br>
+                            2021年1月<br>
                             |<br>
                             2021年5月
                         </th>
@@ -353,52 +353,68 @@
                 </p>
                 <ul class="performance_list">
                     <li>
-                        <div>
-                            <a href="/jin_homepage_img/index/illust_01.png"><img src="/jin_homepage_img/index/illust_01.png" alt="ガス灯フラッグデザインコンテスト"></a>
-                        </div>
-                        <p>ガス灯フラッグデザインコンテスト<br><span class="red">審査員特別賞受賞</span></p>
+                        <a href="/jin_homepage_img/index/illust_01.png">
+                            <div class="li_img">
+                                <img src="/jin_homepage_img/index/illust_01.png" alt="ガス灯フラッグデザインコンテスト">
+                            </div>
+                        </a>
+                        <div class="li_text"><p>ガス灯フラッグデザインコンテスト</p><p class="red smallFont">審査員特別賞受賞</p></div>
                     </li>
                     <li>
-                        <div>
-                            <a href="/jin_homepage_img/index/illust_02.png"><img src="/jin_homepage_img/index/illust_02.png" alt="韓国の音楽ゲーム「Pump It Up」のキャラデザコンテスト"></a>
-                        </div>
-                        <p>韓国の音楽ゲーム「Pump It Up」のキャラデザコンテスト<br><span class="red">20位以内に入り予選通過</span></p>
+                        <a href="/jin_homepage_img/index/illust_02.png">
+                            <div class="li_img">
+                                <img src="/jin_homepage_img/index/illust_02.png" alt="韓国の音楽ゲーム「Pump It Up」のキャラデザコンテスト">
+                            </div>
+                        </a>
+                        <div class="li_text"><p>韓国の音楽ゲーム「Pump It Up」の<br>キャラデザコンテスト</p><p class="red smallFont">20位以内に入り予選通過</p></div>
                     </li>
                     <li>
-                        <div>
-                            <a href="/jin_homepage_img/index/illust_03.png"><img src="/jin_homepage_img/index/illust_03.png" alt="画像コラージュイラスト「City of Safari」"></a>
-                        </div>
-                        <p>画像コラージュイラスト「City of Safari」</p>
+                        <a href="/jin_homepage_img/index/illust_03.png">
+                            <div class="li_img">
+                                <img src="/jin_homepage_img/index/illust_03.png" alt="画像コラージュイラスト「City of Safari」">
+                            </div>
+                        </a>
+                        <div class="li_text"><p>画像コラージュイラスト<br>「City of Safari」</p></div>
                     </li>
                     <li>
-                        <div>
-                            <a href="/jin_homepage_img/index/illust_04.png"><img src="/jin_homepage_img/index/illust_04.png" alt="専門学校デジタルアーツ仙台 文化祭用ポストカード"></a>
-                        </div>
-                        <p>専門学校デジタルアーツ仙台 文化祭用ポストカード</p>
+                        <a href="/jin_homepage_img/index/illust_04.png">
+                            <div class="li_img">
+                                <img src="/jin_homepage_img/index/illust_04.png" alt="専門学校デジタルアーツ仙台 文化祭用ポストカード">
+                            </div>
+                        </a>
+                        <div class="li_text"><p>専門学校デジタルアーツ仙台<br>文化祭用ポストカード</p></div>
                     </li>
                     <li>
-                        <div>
-                            <a href="/jin_homepage_img/index/illust_05.png"><img src="/jin_homepage_img/index/illust_05.png" alt="専門学校デジタルアーツ仙台 文化祭用ポストカード"></a>
-                        </div>
-                        <p>３Dイラスト ARCADE1UP筐体風DJMAX TECHNIKA(Blenderで制作)</p>
+                        <a href="/jin_homepage_img/index/illust_05.png">
+                            <div class="li_img">
+                                <img src="/jin_homepage_img/index/illust_05.png" alt="専門学校デジタルアーツ仙台 文化祭用ポストカード">
+                            </div>
+                        </a>
+                        <div class="li_text"><p>３Dイラスト ARCADE1UP筐体風<br>DJMAX TECHNIKA</p><p class="smallFont">(Blenderで制作)</p></div>
                     </li>
                     <li>
-                        <div>
-                            <a href="/jin_homepage_img/index/web_01.png"><img src="/jin_homepage_img/index/web_01.png" alt="日建産業 オンラインショップ"></a>
-                        </div>
-                        <p>日建産業 オンラインショップ(デザイン・らくうるカート組み込み担当)</p>
+                        <a href="/jin_homepage_img/index/web_01.png">
+                            <div class="li_img">
+                                <img src="/jin_homepage_img/index/web_01.png" alt="日建産業 オンラインショップ">
+                            </div>
+                        </a>
+                        <div class="li_text"><p>日建産業 オンラインショップ</p><p class="smallFont">(デザイン・らくうるカート組み込み担当)</p></div>
                     </li>
                     <li>
-                        <div>
-                            <a href="/jin_homepage_img/index/web_02.png"><img src="/jin_homepage_img/index/web_02.png" alt="日建産業 オンラインショップ"></a>
-                        </div>
-                        <p>カナイ美建 オンラインショップ(デザイン・HTMLコーディング・らくうるカート組み込み担当)</p>
+                        <a href="/jin_homepage_img/index/web_02.png">
+                            <div class="li_img">
+                                <img src="/jin_homepage_img/index/web_02.png" alt="日建産業 オンラインショップ">
+                            </div>
+                        </a>
+                        <div class="li_text"><p>カナイ美建 オンラインショップ</p><p class="smallFont">(デザイン・HTMLコーディング・らくうるカート組み込み担当)</p></div>
                     </li>
                     <li>
-                        <div>
-                            <a href="/jin_homepage_img/index/web_03.png"><img src="/jin_homepage_img/index/web_03.png" alt="アシスト株式会社 オンラインショップ"></a>
-                        </div>
-                        <p>アシスト株式会社 オンラインショップ(HTMLコーディング・らくうるカート組み込み担当)</p>
+                        <a href="/jin_homepage_img/index/web_03.png">
+                            <div class="li_img">
+                                <img src="/jin_homepage_img/index/web_03.png" alt="アシスト株式会社 オンラインショップ">
+                            </div>
+                        </a>
+                        <div class="li_text"><p>アシスト株式会社 オンラインショップ</p><p class="smallFont">(HTMLコーディング・らくうるカート組み込み担当)</p></div>
                     </li>
                 </ul>
             </div>
@@ -409,41 +425,45 @@
                 <article class="add_list">
                     <table>
                         <tr>
-                            <th>名前</th>
-                            <th>内容</th>
+                            <th class="name_cell">名前</th>
+                            <th class="element_cell">内容</th>
                         </tr>
                         @foreach($bss_table as $bss_element)
                         
                             <tr>
-                                <td>{{$bss_element->name}}さん</td>
-                                <td>『{{$bss_element->message}}』とかきこみました。</td>
+                                <td class="name_cell">{{$bss_element->name}}さん</td>
+                                <td class="element_cell">『{{$bss_element->message}}』とかきこみました。</td>
                             </tr>
                         @endforeach
                     </table>
                 </article>
-                <form action="{{route('jin_homepage_check')}}" method="post">
-                    @csrf
-                    <dl>
-                        <dt>名前</dt>
-                        <dd>
-                            
-                            <input type="string" name="name">
-                        </dd>
-                    </dl>
-                    <dl>
-                        <dt>パスワード</dt>
-                        <dd><input type="integer" name="password"></dd>
-                    </dl>
-                    <dl>
-                        <dt>内容</dt>
-                        <dd><input type="text" name="message"></dd>
-                    </dl>
-                    <dl>
-                        <span>{{$error_message}}</span>
-                        <dd><input type="submit" name="submit" value="送信"></dd>
-                    </dl>
-                </form>
-                
+                <div class="form_box_wrapper">
+                    <div class="form_box">
+                        <form action="{{route('jin_homepage_check')}}" method="post">
+                            @csrf
+                            <dl>
+                                <dt>名前</dt>
+                                <dd>
+                                    <input type="string" name="name">
+                                </dd>
+                            </dl>
+                            <dl>
+                                <dt>パスワード</dt>
+                                <dd><input type="integer" name="password"></dd>
+                            </dl>
+                            <dl>
+                                <dt>内容</dt>
+                                <dd><input type="text" name="message"></dd>
+                            </dl>
+                            <dl> 
+                                <dd class="submit">
+                                    <span class="red_error">{{$error_message}}</span>
+                                    <input type="submit" name="submit" value="送信">
+                                </dd>
+                            </dl>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
 
